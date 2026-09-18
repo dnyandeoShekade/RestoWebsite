@@ -17,12 +17,15 @@ export const metadata = {
     icon: "/icon.svg",
     apple: "/icon.svg",
   },
-  themeColor: "#7F0712",
   openGraph: {
     title: "Ember & Crust — Made for Cravings",
     description: "Bold flavors, fire-kissed favorites, and unforgettable moments — served fresh every day.",
     type: "website",
   },
+};
+
+export const viewport = {
+  themeColor: "#7F0712",
 };
 
 export default function RootLayout({ children }) {

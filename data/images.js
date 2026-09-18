@@ -1,0 +1,33 @@
+export const U = (id, w = 900) =>
+  `https://images.unsplash.com/${id}?q=80&w=${w}&auto=format&fit=crop`;
+
+export const IMG = {
+  heroBurger: U("photo-1568901346375-23c9450c58cd", 1100),
+  heroPizza: U("photo-1513104890138-7c749659a591", 700),
+  heroFries: U("photo-1573080496219-bb080dd4f877", 600),
+  heroDrink: U("photo-1541544741938-0af808871cc0", 600),
+  heroWings: U("photo-1527477396000-e27163b481c2", 700),
+  smashBurger: U("photo-1553979459-d2229ba7433b", 800),
+  trufflePasta: U("photo-1621996346565-e3dbc646d9a9", 800),
+  chickenPlate: U("photo-1598103442097-8b74394b95c6", 800),
+  storyPortrait: U("photo-1544025162-d76694265947", 900),
+  storyChef: U("photo-1556910103-1c02745aae4d", 700),
+  kitchen: U("photo-1552566626-52f8b828add9", 1800),
+  sandwich: U("photo-1528735602780-2552fd46c7af", 800),
+  salad: U("photo-1512621776951-a57141f2eefd", 800),
+  tacos: U("photo-1551504734-5ee1c4a1479b", 800),
+  dessert: U("photo-1551024506-0bccd828d307", 800),
+  feast: U("photo-1504674900247-0877df9cc836", 1000),
+  table: U("photo-1414235077428-338989a2e8c0", 1000),
+  party: U("photo-1530103862676-de8c9debad1d", 800),
+  office: U("photo-1521737604893-d14cc237f11d", 800),
+  finalCTA: U("photo-1555939594-58d7cb561ad1", 1800),
+  avatar1: U("photo-1494790108377-be9c29b29330", 200),
+  avatar2: U("photo-1507003211169-0a1dd7228f2d", 200),
+  avatar3: U("photo-1438761681033-6461ffad8d80", 200),
+  burgerAlt: U("photo-1571091718767-18b5b1457add", 800),
+  pizzaAlt: U("photo-1574071318508-1cdbab80d002", 800),
+  pastaAlt: U("photo-1473093295043-cdd812d0e601", 800),
+  wingsAlt: U("photo-1608039755401-742074f0548d", 800),
+  friesAlt: U("photo-1541592106381-b31e9677c0e5", 800),
+};

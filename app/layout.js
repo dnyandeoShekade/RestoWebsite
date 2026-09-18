@@ -13,6 +13,11 @@ const hand = Caveat({ subsets: ["latin"], variable: "--font-hand" });
 export const metadata = {
   title: "Ember & Crust — Made for Cravings",
   description: "Fire-kissed food, bold flavors and unforgettable moments at Ember & Crust.",
+  icons: {
+    icon: "/icon.svg",
+    apple: "/icon.svg",
+  },
+  themeColor: "#7F0712",
   openGraph: {
     title: "Ember & Crust — Made for Cravings",
     description: "Bold flavors, fire-kissed favorites, and unforgettable moments — served fresh every day.",
